@@ -1,0 +1,167 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>TehniciWebGodBless</Name>
+    <RootNamespace>TehniciWebGodBless</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>c3b47b57-562d-45a9-9a5b-b819d5b73d2c</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>server.js</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <NodejsPort>1337</NodejsPort>
+    <StartWebBrowser>true</StartWebBrowser>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="server.js" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Content Include="SiteDubla2\bestiary.html" />
+    <Content Include="SiteDubla2\bestiary\Alp.jpg" />
+    <Content Include="SiteDubla2\bestiary\Bestiary_Fleder.png" />
+    <Content Include="SiteDubla2\bestiary\bruxa.jpg" />
+    <Content Include="SiteDubla2\bestiary\Fiend.webp" />
+    <Content Include="SiteDubla2\bestiary\Griffin.jpg" />
+    <Content Include="SiteDubla2\bestiary\Gwent_cardart_monsters_cyclops.jpg" />
+    <Content Include="SiteDubla2\bestiary\Gwent_cardart_scoiatael_panther.jpg" />
+    <Content Include="SiteDubla2\bestiary\Scurver.png" />
+    <Content Include="SiteDubla2\bestiary\Shaelmaar.png" />
+    <Content Include="SiteDubla2\bestiary\Tw3_journal_armoredarachas.png" />
+    <Content Include="SiteDubla2\bestiary\Tw3_journal_golem.png" />
+    <Content Include="SiteDubla2\bestiary\Werewolf.png" />
+    <Content Include="SiteDubla2\bestiary_useless.html" />
+    <Content Include="SiteDubla2\btn.png" />
+    <Content Include="SiteDubla2\characters.html" />
+    <Content Include="SiteDubla2\characters\ciri-image.jpg" />
+    <Content Include="SiteDubla2\characters\Ciri.jpg" />
+    <Content Include="SiteDubla2\characters\GameDandelion.jpg" />
+    <Content Include="SiteDubla2\characters\GameGeralt.png" />
+    <Content Include="SiteDubla2\characters\Jaskier.jpg" />
+    <Content Include="SiteDubla2\characters\Netflix_Geralt_full.webp" />
+    <Content Include="SiteDubla2\characters\Yennefer_from_Vengerberg_badass_artwork.jpg" />
+    <Content Include="SiteDubla2\characters\Yen_Netflix.png" />
+    <Content Include="SiteDubla2\comments.html" />
+    <Content Include="SiteDubla2\comments.xml" />
+    <Content Include="SiteDubla2\customiser.js" />
+    <Content Include="SiteDubla2\customizer.html" />
+    <Content Include="SiteDubla2\debug.log" />
+    <Content Include="SiteDubla2\favicon.ico" />
+    <Content Include="SiteDubla2\fonts\icomoon.eot" />
+    <Content Include="SiteDubla2\fonts\icomoon.svg" />
+    <Content Include="SiteDubla2\fonts\icomoon.ttf" />
+    <Content Include="SiteDubla2\fonts\icomoon.woff" />
+    <Content Include="SiteDubla2\Fonts_fisier\demo-files\demo.css" />
+    <Content Include="SiteDubla2\Fonts_fisier\demo-files\demo.js" />
+    <Content Include="SiteDubla2\Fonts_fisier\demo.html" />
+    <Content Include="SiteDubla2\Fonts_fisier\example.html" />
+    <Content Include="SiteDubla2\Fonts_fisier\fonts\icomoon.eot" />
+    <Content Include="SiteDubla2\Fonts_fisier\fonts\icomoon.svg" />
+    <Content Include="SiteDubla2\Fonts_fisier\fonts\icomoon.ttf" />
+    <Content Include="SiteDubla2\Fonts_fisier\fonts\icomoon.woff" />
+    <Content Include="SiteDubla2\Fonts_fisier\icomoon.eot" />
+    <Content Include="SiteDubla2\Fonts_fisier\icomoon.svg" />
+    <Content Include="SiteDubla2\Fonts_fisier\icomoon.ttf" />
+    <Content Include="SiteDubla2\Fonts_fisier\icomoon.woff" />
+    <Content Include="SiteDubla2\Fonts_fisier\Read Me.txt" />
+    <Content Include="SiteDubla2\Fonts_fisier\selection.json" />
+    <Content Include="SiteDubla2\Fonts_fisier\style.css" />
+    <Content Include="SiteDubla2\Fonts_fisier\Tw3_icon_monsters.svg" />
+    <Content Include="SiteDubla2\Fonts_fisier\Tw3_icon_place_of_power.svg" />
+    <Content Include="SiteDubla2\HeroChar.jpg" />
+    <Content Include="SiteDubla2\HeroHeader.jpg" />
+    <Content Include="SiteDubla2\index.html" />
+    <Content Include="SiteDubla2\logo.png" />
+    <Content Include="SiteDubla2\monsers.jpg" />
+    <Content Include="SiteDubla2\PFDinTextCondPro-Medium.woff" />
+    <Content Include="SiteDubla2\platforms-witcher.7.png" />
+    <Content Include="SiteDubla2\prezentare\bg-desktop-toussaint.7.jpg" />
+    <Content Include="SiteDubla2\prezentare\bg-map.7.jpg" />
+    <Content Include="SiteDubla2\prezentare\bg-monsterhunter.7.jpg" />
+    <Content Include="SiteDubla2\prezentare\bg-openworld.7.jpg" />
+    <Content Include="SiteDubla2\prezentare\book.jpeg" />
+    <Content Include="SiteDubla2\prezentare\monsterhunter-allies-1.7.jpg" />
+    <Content Include="SiteDubla2\prezentare\monsterhunter-equipment-1.7.jpg" />
+    <Content Include="SiteDubla2\prezentare\monsterhunter-hunts-1.7.jpg" />
+    <Content Include="SiteDubla2\prezentare\monsterhunter-mutations-1.7.jpg" />
+    <Content Include="SiteDubla2\prezentare\openworld-activities-1.7.jpg" />
+    <Content Include="SiteDubla2\prezentare\openworld-exploration-1.7.jpg" />
+    <Content Include="SiteDubla2\prezentare\openworld-inhabitants-1.7.jpg" />
+    <Content Include="SiteDubla2\prezentare\openworld-places-1.7.jpg" />
+    <Content Include="SiteDubla2\prezentare\ThumbsUp.jpg" />
+    <Content Include="SiteDubla2\prezentare\tile-video.7.jpg" />
+    <Content Include="SiteDubla2\scripts.js" />
+    <Content Include="SiteDubla2\scripts2.js" />
+    <Content Include="SiteDubla2\style1.css" />
+    <Content Include="SiteDubla2\style2.css" />
+    <Content Include="SiteDubla2\style3.css" />
+    <Content Include="SiteDubla2\style3_useless.css" />
+    <Content Include="SiteDubla2\The Witcher.png" />
+    <Content Include="SiteDubla2\Tw3_icon_monsters.png" />
+    <Content Include="SiteDubla2\Tw3_icon_place_of_power.png" />
+    <Content Include="SiteDubla2\WitcherLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SiteDubla2\" />
+    <Folder Include="SiteDubla2\bestiary\" />
+    <Folder Include="SiteDubla2\characters\" />
+    <Folder Include="SiteDubla2\fonts\" />
+    <Folder Include="SiteDubla2\Fonts_fisier\" />
+    <Folder Include="SiteDubla2\Fonts_fisier\demo-files\" />
+    <Folder Include="SiteDubla2\Fonts_fisier\fonts\" />
+    <Folder Include="SiteDubla2\prezentare\" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

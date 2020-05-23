@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> The Witcher </title>
+    <link rel='icon' href='favicon.ico' type='image/x-icon' />
+    <meta charset="UTF-8">
+    <meta name="description" content="A sword-wielding slayer, scorned by society, following a moral compass all his own. But not even a Witcher can fight destiny. ">
+    <meta name="keywords" content="Witcher, Wild Hunt, Witcher Netflix">
+    <meta name="author" content="Nedelcu Radu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+
+<body>
+
+    <nav class="topnav" id="navbar">
+        <div>
+            <a href="index.html" id="Logo2">
+            </a>
+        </div>
+        <a href="characters.html">Characters </a>
+        <a href="bestiary.html">Bestiary </a>
+        <div class="dropdown">
+            <button class="dropbtn">
+                Regions
+            </button>
+            <div class="dropdown-content">
+                <a href="https://witcher3map.com/w" target="_blank"> White Orchard </a>
+                <a href="https://witcher3map.com/v" target="_blank"> Velen & Novigrad </a>
+                <a href="https://witcher3map.com/s" target="_blank"> Skellige Isles </a>
+                <a href="https://witcher3map.com/k" target="_blank"> Kaer Morhen </a>
+                <a href="https://witcher3map.com/t" target="_blank"> Toussaint </a>
+            </div>
+        </div>
+        <a href="customizer.html"> Theme Customizer </a>
+        <a href="comments.html" class="active"> Post A Review! </a>
+        <div class="progress-container">
+            <div class="progress-bar" id="scrollBar"></div>
+        </div>
+    </nav>
+    <div id="comms">
+    </div>
+    <div>
+   <form method="POST" action="/comments.html" id="commentInput">
+        <label for="fname"> Name</label>
+       <input type="text" id="name" name="name" placeholder="Your Name" required><br>
+       <label for="content">What do you have to say?</label><br>
+       <textarea rows="10" col='30' id="content" name="content" placeholder="Love this!" required></textarea>
+       <button type= "submit" id="send">Send</button>
+    </form>
+        </div>
+   <aside>
+        <p class="disclaimer">CD PROJEKT®, The Witcher® are registered trademarks of CD PROJEKT Capital Group. The Witcher game © CD PROJEKT S.A. Developed by CD PROJEKT S.A. All rights reserved. The Witcher game is set in the universe created by Andrzej Sapkowski in his series of books. All other copyrights and trademarks are the property of their respective owners.
+            © 2020 CD PROJEKT S.A. ALL RIGHTS RESERVED</p>
+</aside>
+    <script src="scripts.js">
+    </script>
+</body>
+
+</html>

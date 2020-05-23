@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> The Witcher </title>
+    <link rel='icon' href='favicon.ico' type='image/x-icon' />
+    <meta charset="UTF-8">
+    <meta name="description" content="A sword-wielding slayer, scorned by society, following a moral compass all his own. But not even a Witcher can fight destiny. ">
+    <meta name="keywords" content="Witcher, Wild Hunt, Witcher Netflix">
+    <meta name="author" content="Nedelcu Radu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#84db94">
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+
+<body>
+
+    <nav class="topnav" id="navbar">
+        <div>
+            <a href="index.html" id="Logo2">
+            </a>
+        </div>
+        <a href="characters.html">Characters </a>
+        <a href="bestiary.html"> Bestiary </a>
+        <div class="dropdown">
+            <button class="dropbtn">
+                Regions
+            </button>
+            <div class="dropdown-content">
+                <a href="https://witcher3map.com/w" target="_blank">White Orchard</a>
+                <a href="https://witcher3map.com/v" target="_blank"> Velen & Novigrad</a>
+                <a href="https://witcher3map.com/s" target="_blank"> Skellige Isles</a>
+                <a href="https://witcher3map.com/k" target="_blank"> Kaer Morhen</a>
+                <a href="https://witcher3map.com/t" target="_blank"> Toussaint </a>
+            </div>
+        </div>
+        <a href="customizer.html" class="active"> Theme Customizer </a>
+        <a href="comments.html"> Post A Review! </a>
+        <div class="progress-container">
+            <div class="progress-bar" id="scrollBar"></div>
+        </div>
+    </nav>
+    <div id="wrapper">
+        <span id = "demo" class="row"> In-Page Preview</span>
+        <form class="row">
+        <span>BACKGROUND COLOR&nbsp;</span>
+        <input type="text" id="hex">
+        <input type="color" id="color">
+             <input type="button" id="colorrandom" value="RANDOM COLOR"><br>
+        </form>
+        <form class="row">
+        <span>NAV COLOR&nbsp;</span>
+        <input type="text" id="navhex">
+        <input type="color" id="navcolor">
+            <input type="button" id="navcolorrandom" value="RANDOM COLOR"><br>
+        </form>
+        <form class="row">
+        <span> FONT SIZE:&nbsp;</span> <br>
+        <label for="16px">16px</label>
+        <input type="radio" name="font-size" value="16px"><br>
+            <label for="16px">20px</label>
+        <input type="radio" name="font-size" value="20px"><br>
+            <label for="16px">30px</label>
+        <input type="radio" name="font-size" value="30px"><br>
+        </form>
+          <form class="row">
+        <span>FONT COLOR&nbsp;</span>
+        <input type="text" id="fonthex">
+        <input type="color" id="fontcolor">
+            <input type="button" id="fontrandom" value="RANDOM COLOR"><br>
+        </form>
+        <form class="row">
+         <label for="default">Show Current Time</label>
+        <input type="checkbox" id = "time" name="time">
+            <form class="row">
+        <input type="button" id="openPreview" value="Preview Changes">
+        <input type="button" id="closePreview" value="Close Preview">
+            </form>
+        </form>
+        <form class="row">
+        <input type="button" id="start" value="Change Settings">&nbsp;&nbsp;
+    <input type="button" id = "reset" value="RESET">
+        </form>
+        <p class="row"> ( Click on the right side of the screen for all random )</p>
+    </div>
+    
+    <script src="customiser.js">
+    </script>
+</body>
+
+</html>
